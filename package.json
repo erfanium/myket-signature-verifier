@@ -1,0 +1,39 @@
+{
+  "name": "myket-signature-verifier",
+  "version": "1.0.0",
+  "description": "verifier for myket signatures and signed data",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test.js && tsd"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "eslint": "^7.19.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "standard": "^16.0.3",
+    "tap": "^14.11.0",
+    "tsd": "^0.14.0",
+    "typescript": "^3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erfanium/myket-signature-verifier.git"
+  },
+  "keywords": [
+    "myket",
+    "sha1",
+    "signature",
+    "private-key"
+  ],
+  "author": "Erfanium <erfanshield@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erfanium/myket-signature-verifier/issues"
+  },
+  "homepage": "https://github.com/erfanium/myket-signature-verifier#readme"
+}
